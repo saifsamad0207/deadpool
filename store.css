@@ -1,0 +1,92 @@
+header {
+	background: url(http://www.heromachine.com/wp-content/uploads/2017/11/deadpool-desktop-2048x1152-750x422.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+
+h1{
+	font-size: 75px;
+	color: blue;
+	font-family: sans-serif;
+}
+
+header img{
+	border-radius: 600px;
+	height: 150px;
+	width: 150px;
+	border: 10px solid blue;
+}
+
+
+
+/* navbar */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #800010;
+}
+
+.navbar li {
+    float: left;
+     border-right: 2px solid blue;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+
+.navbar li a:hover {
+    background-color: blue;
+}
+
+
+
+.navbar li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: blue;
+}
+/* the end of navbar */
+
+
+
+
+/* products */
+
+.products ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.products li {
+    float: left;
+}
+
+.products li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.products ul :hover {
+    background-color: lightgray;
+}
+/* end of products */

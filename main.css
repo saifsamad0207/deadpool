@@ -71,11 +71,11 @@ footer{
 }
 
 /* Start of Describing DeadPool*/
-h2 {
-color: purple;
+h2{
+	color: purple;
 }
-ul {
-color: blue;
+ul li{
+	color: blue;
 }
 
 /*End Of Describing DeadPool*/

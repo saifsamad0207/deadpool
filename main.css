@@ -62,37 +62,6 @@ header img{
 /* the end of navbar */
 
 
-
-
-/* products */
-
-.products ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
-
-.products li {
-    float: left;
-}
-
-.products li a {
-    display: block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
-.products ul :hover {
-    background-color: lightgray;
-}
-/* end of products */
-
-
-
 footer{
 	padding: 30px 10px;
 	background-color:gray;
@@ -100,4 +69,14 @@ footer{
 	font-size: 20px;
 	text-align: center;
 }
+
+/* Start of Describing DeadPool*/
+h2 {
+color: purple;
+}
+ul {
+color: blue;
+}
+
+/*End Of Describing DeadPool*/
 
